@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/82aa879a83.js" crossorigin="anonymous" defer></script>
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="modal">
+    <div class="modal-content">
+        <div class="form-container">
+            <div class="signin-signup">
+              <form class="signin-form">
+                <div class="input-field usr-email">
+                  <label for="signin-email"><i class="fas fa-envelope"></i></label>
+                  <input type="email" id="signin-email" placeholder="Email">
+                </div>
+                <div class="input-field usr-password">
+                  <label for="signin-password"><i class="fas fa-unlock-alt"></i></label>
+                  <input type="password" id="signin-password" placeholder="Password">
+                </div>
+                <button class="btn login-btn">log in</button>
+                <p>or log in with social media</p>
+                <div class="social-icons">
+                  <a href="https://twitter.com/iam_kwekhu"><i class="fab fa-twitter"></i></a>
+                  <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                  <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </form>
+              <form class="signup-form">
+                <div class="input-field usr-name">
+                  <label for="signup-name"><i class="fas fa-user"></i></label>
+                  <input type="text" id="signup-name" placeholder="Full name">
+                </div>
+                <div class="input-field usr-email">
+                  <label for="signup-email"><i class="fas fa-envelope"></i></label>
+                  <input type="email" id="signup-email" placeholder="Email">
+                </div>
+                <div class="input-field usr-password">
+                  <label for="signup-password"><i class="fas fa-unlock-alt"></i></label>
+                  <input type="password" id="signup-password" placeholder="Password">
+                </div>
+                <button class="btn signup-btn">sign up</button>
+                <p>or sign up with social media</p>
+                <div class="social-icons">
+                  <a href="https://twitter.com/iam_kwekhu"><i class="fab fa-twitter"></i></a>
+                  <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                  <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </form>
+            </div>
+        </div>
+        <div class="alternative">
+          <div class="panel left-panel">
+            <h3>Your first time here?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, perferendis. Nam accusantium asperiores minus reprehenderit vitae!.</p>
+            <button class="left-btn">sign up</button>
+            <div class="img img-left">
+              <img src="images/authentication.svg" alt="" width="300" height="250">
+            </div>
+          </div>
+          <div class="panel right-panel">
+            <h3>Already with us?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, perferendis. Nam accusantium asperiores minus reprehenderit vitae!.</p>
+            <button class="right-btn">log in</button>
+            <div class="img img-right">
+              <img src="images/signin.svg" alt="" width="300" height="250">
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <header>
+    <nav class="navigation">
+      <a href="index.html" class="logo"><img src="images/logo.svg" alt="logo" width="120" height="50"></a>
+      <ul class="navlinks">
+        <li><a href="index.html">Features</a></li>
+        <li><a href="index.html">Team</a></li>
+        <li class="modal-trigger">Sign In</li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="hero-wrapper">
+      <img src="images/bg-curvy-desktop.svg" alt="" class="hero-bg-img">
+      <div class="hero-content">
+        <div class="img-wrapper">
+          <img src="images/illustration-intro.png" alt="">
+        </div>
+        <div class="text-content">
+          <h3>All your files in one secure location, accessible anywhere.</h3>
+          <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
+          <a href="index.html" class="start">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="main">
+    <div class="main-wrapper">
+      <div class="main-content">
+        <div class="grid-items">
+          <div class="grid-box access">
+            <div class="grid-img-wrapper">
+              <img src="images/icon-access-anywhere.svg" alt="">
+            </div>
+            <div class="grid-text">
+              <h3>Access your files, anywhere</h3>
+              <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+            </div>
+          </div>
+          <div class="grid-box security">
+            <div class="grid-img-wrapper">
+              <img src="images/icon-security.svg" alt="">
+            </div>
+            <div class="grid-text">
+              <h3>Security you can trust</h3>
+              <p>2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+            </div>
+          </div>
+          <div class="grid-box real-time">
+            <div class="grid-img-wrapper">
+              <img src="images/icon-collaboration.svg" alt="">
+            </div>
+            <div class="grid-text">
+              <h3>Real-time collaboration</h3>
+              <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+            </div>
+          </div>
+          <div class="grid-box store">
+            <div class="grid-img-wrapper">
+              <img src="images/icon-any-file.svg" alt="">
+            </div>
+            <div class="grid-text">
+              <h3>Store any type of file</h3>
+              <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+            </div>
+          </div>
+        </div>
+        <div class="productive-section">
+          <div class="productive-img-wrapper">
+            <img src="images/illustration-stay-productive.png" alt="stay productive">
+          </div>
+          <div class="productive-text">
+            <h2>Stay productive, wherever you are</h2>
+            <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+            <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+            <a href="index.html">See how Fylo works <img src="images/icon-arrow.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="quote-mark">
+          <img src="images/bg-quotes.png" alt="">
+        </div>
+        <div class="testimonials">
+          <div class="testimonial">
+            <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="avatar">
+              <img src="images/profile-1.jpg" alt="">
+              <div class="name">
+                <h4>Satish Patel</h4>
+                <p>Fonder & CEO Huddle</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="avatar">
+              <img src="images/profile-2.jpg" alt="">
+              <div class="name">
+                <h4>Bruce McKenzie</h4>
+                <p>Fonder & CEO Huddle</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="avatar">
+              <img src="images/profile-3.jpg" alt="">
+              <div class="name">
+                <h4>Iva Boyd</h4>
+                <p>Fonder & CEO Huddle</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="signup-box">
+          <div class="container">
+            <h2>Get early access today</h2>
+            <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+            <form class="page-form">
+              <input type="email" id="usr-email" placeholder="email@example.com">
+              <button>Get Started For Free</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <div class="footer-wrapper">
+      <div class="footer-content">
+        <a href="index.html" class="footer-logo"><img src="images/logo.svg" alt=""></a>
+        <div class="grid-block">
+          <div class="flex-item logo-location">
+            <div class="location">
+              <img src="images/icon-location.svg" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+          </div>
+          <div class="flex-item contact">
+            <ul>
+              <li><a href="tel:+1-543-123-4567"><img src="images/icon-phone.svg" alt="">&nbsp; &nbsp; +1-543-123-4567</a></li>
+              <li><a href="mailto:powusu381@gmail.com"><img src="images/icon-email.svg" alt="">&nbsp; &nbsp; example@fylo.com</a></li>
+            </ul>
+          </div>
+          <div class="flex-item nav-list">
+            <ul>
+              <li><a href="index.html">About Us</a></li>
+              <li><a href="index.html">Jobs</a></li>
+              <li><a href="index.html">Press</a></li>
+              <li><a href="index.html">Blog</a></li>
+            </ul>
+            <ul>
+              <li><a href="index.html">Contact Us</a></li>
+              <li><a href="index.html">Terms</a></li>
+              <li><a href="index.html">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="flex-item social-media">
+            <ul>
+              <li><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://twitter.com/iam_kwekhu">Prince Owusu</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="jquery.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
