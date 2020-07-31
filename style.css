@@ -969,10 +969,10 @@ footer.page-footer {
         align-items: flex-start;
         margin-bottom: 10rem;
     }
-/* 
+    
     .flex-item {
-        margin-bottom: 5rem;
-    } */
+        margin-bottom: 2.5rem;
+    }
 
     .nav-list {
         flex-direction: column;
@@ -1030,10 +1030,10 @@ footer.page-footer {
         display: flex;
         flex-direction: column;
     }
-/* 
+    
     .grid-box {
         margin-bottom: 3rem;
-    } */
+    }
 
     .productive-text h2 {
         font-size: 2rem;
