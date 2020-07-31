@@ -1141,9 +1141,14 @@ footer.page-footer {
     }
 }
 
-@media (max-width: 270px) and (max-height: 520px) {
+@media (max-width: 370px) and (max-height: 500px) {
     .right-panel {
-        padding-top: 50%;
+        padding-top: 40%;
+    }
+
+    form p,
+    form .social-icons {
+        display: none;
     }
 
 }
