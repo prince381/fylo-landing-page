@@ -1143,7 +1143,7 @@ footer.page-footer {
 
 @media (max-width: 270px) and (max-height: 520px) {
     .right-panel {
-        padding-top: 70%;
+        padding-top: 50%;
     }
 
 }
